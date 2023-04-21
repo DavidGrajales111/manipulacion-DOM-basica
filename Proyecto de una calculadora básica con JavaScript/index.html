@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Calculadoras</h1>
+    </header>
+    <div class="container">
+        <div class="calculadoraContainer">
+            <h1 id="titulo">SUMAS</h1>
+
+            <input id="numero1" placeholder="Escribe un numero">
+            <input id="numero2" placeholder="Escribe un numero">
+            <button id="botonCalcular" onclick="clickAlBotonSuma()">Calcular</button>
+
+            <p id="resultadoSuma">Resultado: </p>
+        </div>
+
+        <div class="calculadoraContainer">
+            <h1 id="titulo">RESTAS</h1>
+
+            <input id="numero3" placeholder="Escribe un numero">
+            <input id="numero4" placeholder="Escribe un numero">
+            <button id="botonCalcular-2" onclick="clickAlBotonResta()">Calcular</button>
+
+            <p id="resultadoResta">Resultado: </p>
+        </div>
+
+        <div class="calculadoraContainer">
+            <h1 id="titulo">MULTIPLICACION</h1>
+
+            <input id="numero5" placeholder="Escribe un numero">
+            <input id="numero6" placeholder="Escribe un numero">
+            <button id="botonCalcular-3" onclick="clickAlBotonMultiplicacion()">Calcular</button>
+
+            <p id="resultadoMultiplicacion">Resultado: </p>
+        </div>
+
+        <div class="calculadoraContainer">
+            <h1 id="titulo">DIVICION</h1>
+
+            <input id="numero7" placeholder="Escribe un numero">
+            <input id="numero8" placeholder="Escribe un numero">
+            <button id="botonCalcular-4" onclick="clickAlBotonDivision()">Calcular</button>
+
+            <p id="resultadoDivision">Resultado: </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

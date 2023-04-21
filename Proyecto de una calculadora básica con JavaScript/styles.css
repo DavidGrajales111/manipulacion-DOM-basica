@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #6d42c7;
+    font-size: 20px;
+    border: 5px dotted blue;
+}
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 227px);
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+    /* place-items: center; */
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(https://images7.alphacoders.com/101/1014821.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calculadoraContainer {
+    background-color: #16a43c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 250px;
+}
+
+/* .titulo {
+    grid-area: 1/1/2/3;
+} */
+
+#titulo {
+    font-family: Dongle;
+    margin-bottom: 8px;
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    border: none;
+}
+
+#botonCalcular, #botonCalcular-2,#botonCalcular-3, #botonCalcular-4 {
+    background-color: #a2c11c;
+    border: 1.5px solid black;
+    padding: 8px 6px;
+    border-radius: 20px;
+}
+
+#botonCalcular:hover, #botonCalcular-2:hover ,#botonCalcular-3:hover, #botonCalcular-4:hover {
+    box-shadow: 4px 4px 10px #6d42c7;
+    border: 2.5px solid black;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 14px;
+}
